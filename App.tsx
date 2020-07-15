@@ -10,8 +10,9 @@ export default function App() {
   const [x2, setX2] = useState(0);
 
   function handleCalcular() {
-    setX1((-(b) + (((b ** 2 - 4 * a * c) ** 0.5))) / 2 * a);
-    setX2((-(b) - (((b ** 2 - 4 * a * c) ** 0.5))) / 2 * a);
+    const delta = (b ** 2) - 4 * a * c;
+    setX1((-(b) + delta ** 0.5) / (2 * a));
+    setX2((-(b) - delta ** 0.5) / (2 * a));
   };
 
   return (
@@ -21,18 +22,21 @@ export default function App() {
 
       <View>
         <TextInput
+          keyboardType={'number-pad'}
           placeholderTextColor='#F40'
           placeholder='Digite o valor de a...'
           style={styles.inputABC}
           onChangeText={text => setA(Number(text))} />
 
         <TextInput
+          keyboardType={'number-pad'}
           placeholderTextColor='#F40'
           placeholder='Digite o valor de b...'
           style={styles.inputABC}
           onChangeText={text => setB(Number(text))} />
 
         <TextInput
+          keyboardType={'number-pad'}
           placeholderTextColor='#F40'
           placeholder='Digite o valor de c...'
           style={styles.inputABC}
