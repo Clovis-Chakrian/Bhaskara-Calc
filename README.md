@@ -32,3 +32,9 @@ e agora você vai precisar abrir com o seu dispositivo móvel.
 ## O que é o Bhaskara Calc:
 
 Bhaskara Calc é um aplicativo desenvolvido por mim, para resolver equações de segundo grau de forma rápida.
+
+## Licença:
+
+Esse projeto está sob a Licença do MIT.
+
+Feito com cuidado por [Clóvis Chakrian](https://github.com/Clovis-Chakrian)
