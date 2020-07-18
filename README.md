@@ -35,6 +35,6 @@ Bhaskara Calc é um aplicativo desenvolvido por mim, para resolver equações de
 
 ## Licença:
 
-Esse projeto está sob a Licença do MIT.
+Esse projeto está sob a [Licença do MIT](LICENSE).
 
-Feito com cuidado por [Clóvis Chakrian](https://github.com/Clovis-Chakrian)
+Feito com cuidado e carinho por [Clóvis Chakrian](https://github.com/Clovis-Chakrian).
