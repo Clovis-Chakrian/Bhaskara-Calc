@@ -25,6 +25,7 @@ Para rodar o projeto você vai precisar:
 ```shell
 cd "diretório de sua escolha"
 git clone https://github.com/Clovis-Chakrian/Bhaskara-Calc
+npm install
 expo start
 ```
 e agora você vai precisar abrir com o seu dispositivo móvel.
